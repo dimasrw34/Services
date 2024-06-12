@@ -4,6 +4,9 @@ var builder = WebApplication.CreateBuilder(args);
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
+//.3. Добавили контескт 
+builder.Services.AddDbContext<AppDbContext>(opt => opt.UseInMemoryDatabase("ImMem"));
+
 
 var app = builder.Build();
 
