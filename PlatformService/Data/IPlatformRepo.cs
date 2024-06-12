@@ -6,7 +6,7 @@ namespace PlatformService.Data
     {
         bool SaveChange();
         IEnumerable<Platform> GetAllPlatforms();
-        Platform GetPlatformById(int id);
+        Platform? GetPlatformById(int id);
         void CretePlatform(Platform platform);
     }
 }
