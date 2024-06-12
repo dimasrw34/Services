@@ -1,5 +1,5 @@
 using PlatformService.Models;
-//.4. Создали интерфейс репозитория
+//.4. Create repo interface
 namespace PlatformService.Data
 {
     public interface IPlatformRepo

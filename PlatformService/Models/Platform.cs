@@ -1,5 +1,5 @@
 
-//.1. Создали моедль платформы
+//.1. Create model
 using System.ComponentModel.DataAnnotations;
 
 namespace PlatformService.Models

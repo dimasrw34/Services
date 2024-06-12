@@ -1,6 +1,6 @@
 using Microsoft.EntityFrameworkCore;
 using PlatformService.Models;
-//.2. Создали дб контекст БД
+//.2. Create dbcontext
 namespace  PlatformService.Data
 {
     public class  AppDbContext(DbContextOptions <AppDbContext> opt) : DbContext(opt)
